@@ -1,0 +1,580 @@
+/* FONT (Font) */
+
+@import url('FONT');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://animesher.com/orig/0/62/622/6225/animesher.com_anime-scenery-sky-gif-622593.gif') no-repeat center center fixed;
+    background-size: cover;
+	font-family: font;
+	color: #ffffff;
+}
+.center.b {
+	color: #ffffff !important;
+}
+element.style {
+color: #ffffff
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+    background: rgb(221 207 207 / 59%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+    background: rgb(243 213 213 / 50%);
+    border: none;
+    border-top: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: font;
+}
+
+.navbar {
+	background: rgb(255 224 224 / 47%);
+	border-bottom: none;
+	font-family: font;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #ffffff !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgb(233 195 195 / 49%) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgb(147 147 147 / 13%);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(248 232 230 / 55%);
+}
+
+.breadcrumb .active {
+	color: #fff9f9;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgb(229 205 205 / 60%);
+    border: none;
+    color: #ffffff;
+
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgb(229 205 205 / 60%);
+	color: #ffffff;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgb(255 231 231 / 60%);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgb(255 224 224 / 60%) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #ffffff !important;
+	border-radius: 0px;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(0, 0, 0, 0.6);
+	color: #000000 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #ffffff !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgb(253 205 205 / 40%);
+	color: #000000 !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #7b7777ab !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #5c5858ba !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #666666b8 !important;
+    color: #c0c0c0 !important;
+    border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: #8e7e7ea6 !important;
+}
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+    background: #8e7e7ea6;
+    color: #c0c0c0;
+}
+#fra_chatContainer .channelMenu .channelSwitcher {
+    color: #c0c0c0;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 4px;
+    padding: 3px 12px;
+}
+.s-chat-sidebar #fraChatChannelMenu {
+    background: #7b7b7b52;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 2px #aaa;
+    cursor: default;
+    padding: 2px;
+    position: absolute;
+    width: 140px;
+    z-index: 99999999;
+}
+.emoteList {
+    background: #9b9b9b91;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    border: 2px solid #ffffff;
+    display: none;
+    padding: 6px;
+    position: absolute;
+    text-align: center;
+    top: 32px;
+    width: 184px;
+    min-height: 120px;
+}
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #fff1f1;
+	font-size: 72px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #ffe4e4;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #ffffff !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgb(235 215 215 / 43%);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: rgb(231 195 195 / 36%) !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgb(100 80 80 / 60%)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: rgb(238 215 215 / 60%) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: black !important;
+	text-shadow: none !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgb(164 142 142 / 69%) !important;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(89 89 89 / 24%)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgb(255 217 217 / 60%) !important;
+	color: #000000  !important;
+}
+
+.item {
+	background: rgba(0, 0, 0, 0.6) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgb(243 218 218 / 60%);
+	border: none !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #fff4f4 !important;
+}
+
+a:hover {
+	color: #f5d0d0 !important;
+}
+.table .left a {
+    background: #d3a07400;
+}
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.Box1 {
+	float: left;
+	background: #000000;
+	color: #000000;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 250px;
+	width: 250px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.Box2 {
+    float: left;
+    background: #ffebeb7a;
+    color: #ffe8e8;
+    padding: 7px;
+    border: 1px solid #c1b4b4;
+    border-radius: 44px;
+    margin: 4px;
+    height: 250px;
+    width: 400px;
+    transition: 1s;
+    overflow: auto;
+}
+
+.Box3 {
+	float: left;
+	background: #000000;
+	color: #000000;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	margin: 0px;
+	height: 0px;
+	width: 0px;
+	transition: 1s;
+	overflow: auto;
+
+}
+
+.hoverbox1 {
+	float: left;
+	background: #000000;
+	color: #000000;
+	padding: 0px;
+	border: 0px solid #000000;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 62px;
+	width: 250px;
+	margin-bottom: 15px;
+	transition: 4s;
+}
+
+.hoverbox1:hover {
+	height: 0px;
+	width: 0px;
+}
+
+.hoverbox2 {
+	float: left;
+	background: #000000;
+	color: #000000;
+	padding: 0px;
+	border: 0px solid #000000;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 0px;
+	width: 0px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.hoverbox2:hover {
+	height: 0px;
+	width: 0px;
+}
+
+.hoverbox3 {
+	float: left;
+	background: #000000;
+	color: #000000;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	margin: 10px;
+	float: right;
+	overflow: auto;
+	height: 0px;
+	width: 0px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.hoverbox3:hover {
+	height: 0px;
+	width: 0px;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #d1aeae;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #f4cece;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.6;
+}
+
+table#player img {
+	opacity: 0.6;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 17px;
+	margin-left: 6px;
+	
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bbc48c8a-5c66-480f-b32b-f23cbe331d98/dc4ssbi-f24ca1ea-0af2-4167-8095-f82536a7aab6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiYzQ4YzhhLTVjNjYtNDgwZi1iMzJiLWYyM2NiZTMzMWQ5OFwvZGM0c3NiaS1mMjRjYTFlYS0wYWYyLTQxNjctODA5NS1mODI1MzZhN2FhYjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l83N9gsZpb8SQ_HfXssQRTr-039CN0fijBloZvt3caY');
+}
+
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+    content: url(https://i.imgur.com/63MJ72O.gif)!important;
+    width: 69px;
+    height: 53px;
+}
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="CAVEID"]>div.cave-grid>img {
+	content: url('IMGURL')!important;
+}
+a[href$="CAVEID"]>div.cave-grid>img {
+	content: url('IMGURL')!important;
+}
+a[href$="CAVEID"]>div.cave-grid>img {
+	content: url('IMGURL')!important;
+}
+
+
+/* UNSORTED */
+
+a[href$="unsorted.php?id=USERID"]>div.cave-grid>img {
+	content: url('IMGURL')!important;
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=USERID"]>div.cave-grid>img {
+	content: url('IMGURL')!important;
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	background: url('IMGURL');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
+
+.credit {
+    background: rgb(115 106 106 / 70%);
+    color: #e0d1d1;
+    z-index: 100;
+    padding: 10px;
+    border: none;
+    position: fixed;
+    text-align: center;
+    border-radius: 5px;
+    left: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgba(0,0,0) !important;
+    border-image: initial !important;
+    border: none !important;
